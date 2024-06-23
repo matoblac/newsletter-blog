@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter {
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h2 {
+    margin-top: 0;
+}

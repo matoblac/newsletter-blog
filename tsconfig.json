@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs",
+      "lib": ["es2018"],
+      "outDir": "dist",
+      "rootDir": "lib",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["lib/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
